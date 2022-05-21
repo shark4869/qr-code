@@ -1,0 +1,80 @@
+:root {
+    
+    --white-color: #ffffff;
+    --light-gray: #d6e2f0;
+    --grayish-blue: #7b879d;
+    --dark-blue: #1f3251;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+   
+   
+    font-size: 62.5%; 
+    background-color: var(--grayish-blue);
+    font-family: 'Outfit', sans-serif;
+}
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-color);
+    width: 300px;
+   
+    border-radius: 20px;
+    overflow: hidden;
+    font-size: 1.5rem;
+}
+
+.qr-code__img {
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.qr-content {
+    margin: 10px 20px 0;
+    cursor: text;
+}
+
+.qr-heading {
+    margin: 0;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    color: var(--dark-blue);
+    text-align: center;
+}
+
+.qr-desc {
+   
+    text-align: center;
+    color: var(--grayish-blue);
+    margin-top: 20px;
+    display: block;
+    line-height: 2rem;
+}
+.atribution {
+    margin-top: 30px;
+   
+}
+.sourse ,
+.auth-name {
+    text-align: center;
+    display: block;
+    color: #555;
+    line-height: 2rem;
+}
+.sourse a,
+.auth-name a {
+    color: #2d5fad;
+    text-decoration: none;
+}
+
